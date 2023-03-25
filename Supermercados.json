@@ -1,0 +1,58 @@
+{
+  "supermercados": [
+    {
+      "nombre": "Supermercado A",
+      "direccion": "Calle X, 123",
+      "geolocalizacion": "latitud, longitud",
+      "productos": [
+        {
+          "nombre": "Leche",
+          "oferta": true,
+          "periodo_vigencia": "01/03/2023 - 31/03/2023",
+          "habitual": false,
+          "unidades": 1,
+          "unidad_medida": "litro",
+          "precio": 1.5,
+          "adquirido": false
+        },
+        {
+          "nombre": "Pan",
+          "oferta": false,
+          "periodo_vigencia": null,
+          "habitual": true,
+          "unidades": 1,
+          "unidad_medida": "barra",
+          "precio": 0.8,
+          "adquirido": true
+        }
+      ]
+    },
+    {
+      "nombre": "Supermercado B",
+      "direccion": "Calle Y, 456",
+      "geolocalizacion": "latitud, longitud",
+      "productos": [
+        {
+          "nombre": "Huevos",
+          "oferta": false,
+          "periodo_vigencia": null,
+          "habitual": true,
+          "unidades": 12,
+          "unidad_medida": "unidad",
+          "precio": 2.5,
+          "adquirido": false
+        },
+        {
+          "nombre": "Cereales",
+          "oferta": true,
+          "periodo_vigencia": "15/03/2023 - 30/03/2023",
+          "habitual": false,
+          "unidades": 1,
+          "unidad_medida": "paquete",
+          "precio": 2.0,
+          "adquirido": false
+        }
+      ]
+    }
+  ]
+}

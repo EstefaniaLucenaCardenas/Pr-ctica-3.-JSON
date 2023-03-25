@@ -1,0 +1,27 @@
+<supermercado>
+  <nombre>Supermercado A</nombre>
+  <direccion>Calle X, 123</direccion>
+  <geolocalizacion>latitud, longitud</geolocalizacion>
+  <productos>
+    <producto>
+      <nombre>Leche</nombre>
+      <oferta>true</oferta>
+      <periodo_vigencia>01/03/2023 - 31/03/2023</periodo_vigencia>
+      <habitual>false</habitual>
+      <unidades>1</unidades>
+      <unidad_medida>litro</unidad_medida>
+      <precio>1.5</precio>
+      <adquirido>false</adquirido>
+    </producto>
+    <producto>
+      <nombre>Pan</nombre>
+      <oferta>false</oferta>
+      <periodo_vigencia></periodo_vigencia>
+      <habitual>true</habitual>
+      <unidades>1</unidades>
+      <unidad_medida>barra</unidad_medida>
+      <precio>0.8</precio>
+      <adquirido>true</adquirido>
+    </producto>
+  </productos>
+</supermercado>
